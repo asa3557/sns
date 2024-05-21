@@ -120,7 +120,7 @@ function generateColorBoxes(number, isInitial) {
       clickCount++;
       if (clickCount == 13) {
         alert("당신이 클릭한 것들.");
-      window.open("https://www.instagram.com/", "_blank");
+      location.replace("https://www.instagram.com/");
       }
       generateColorBoxes(numberOfBoxes, false); // 새로운 박스 생성
       randomizeBoxPositions(); // 생성된 박스들의 위치 무작위로 변경
